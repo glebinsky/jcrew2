@@ -1,0 +1,28 @@
+.item {
+  border-style: solid;
+  border-color: rgba(0,0,0,.3);
+}
+
+.grid {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  width: 606px;
+}
+
+.item {
+  flex: 1 0 auto;
+  border-width: 0 2px 2px 0;
+}
+
+.grid-wrapper {
+  margin: 0 auto;
+  width: 644px;
+  height: 713px;
+  overflow: hidden;
+}
+
+.landing-page-heading {
+  display: block;
+  text-align: center;
+}

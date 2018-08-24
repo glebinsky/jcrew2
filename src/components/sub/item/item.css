@@ -1,0 +1,26 @@
+.item {
+  width: 200px;
+  position: relative;
+}
+
+.item .description-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+}
+
+.item .description-wrapper div,
+.item .description-wrapper a {
+  font-size: 11px;
+}
+
+
+.item .description-wrapper a {
+  text-decoration: underline;
+}
+
+.item img {
+  width: 200px;
+  height: 100%;
+}

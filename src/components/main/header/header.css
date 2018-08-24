@@ -1,0 +1,45 @@
+header {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  width: 950px;
+}
+
+header .logo {
+  flex: 1;
+  flex-basis: 400px;
+  text-align: center;
+}
+
+header .logo img {
+  height: 30px;
+  flex-basis: 400px;
+}
+
+header .shop-links,
+header .search {
+  flex: 1;
+  flex-basis: 300px;
+  font-weight: bold;
+  font-size: 13px;
+  color: gray;
+  text-transform: uppercase;
+}
+
+header .shop-links {
+  display: flex;
+  flex-flow: row;
+}
+
+header .shop-links > * {
+  flex: 1 30px;
+}
+
+header .shop-links .stores {
+  padding-top: 10px;
+}

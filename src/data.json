@@ -1,0 +1,64 @@
+{
+  "logo": "images/jcrew_logo.svg",
+  "mainNavItems": [
+    "New Arrivals",
+    "Women",
+    "Men",
+    "Girls",
+    "Boys",
+    "Sale",
+    "Blog",
+    "Factory"
+  ],
+  "landingImage": "/images/ludlow_or_crosby.jpg",
+  "items": [
+    {
+      "id": "157",
+      "baseImage": "/images/item01.jpeg",
+      "description": "the Ludlow wide-lapel suit in latin latin latin",
+      "expandedImage": "/images/item01_hover.jpeg"
+    },
+    {
+      "id": "158",
+      "baseImage": "/images/item02.jpg",
+      "description": "the ksfnsljn wide-lapel suit in latin latin latin",
+      "expandedImage": "/images/item01_hover.jpeg"
+    },
+    {
+      "id": "159",
+      "baseImage": "/images/item03.jpeg",
+      "description": "the ksfnsljn wide-lapel suit in latin latin latin",
+      "expandedImage": "/images/item01_hover.jpeg"
+    },
+    {
+      "id": "136",
+      "baseImage": "/images/item04.jpeg",
+      "description": "the ksfnsljn wide-sdf ko43ef suit in latin latin latin",
+      "expandedImage": "/images/item01_hover.jpeg"
+    },
+    {
+      "id": "175",
+      "baseImage": "/images/item05.jpeg",
+      "description": "the ksfnsljn wide-lapel suit in latin latin latin",
+      "expandedImage": "/images/item01_hover.jpeg"
+    },
+    {
+      "id": "256",
+      "baseImage": "/images/item04.jpeg",
+      "description": "the ksfnsljn wide-sdf ko43ef suit in latin latin latin",
+      "expandedImage": "/images/item01_hover.jpeg"
+    },
+    {
+      "id": "555",
+      "baseImage": "/images/item05.jpeg",
+      "description": "the ksfnsljn wide-lapel suit in latin latin latin",
+      "expandedImage": "/images/item01_hover.jpeg"
+    },
+    {
+      "id": "654",
+      "baseImage": "/images/item06.jpeg",
+      "description": "the ksfnsljn nvfjkdls lkjrgin latin latin latin",
+      "expandedImage": "/images/item01_hover.jpeg"
+    }
+  ]
+}

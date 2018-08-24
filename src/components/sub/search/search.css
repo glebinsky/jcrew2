@@ -1,0 +1,17 @@
+.search {
+  font-weight: bold;
+  font-size: 13px;
+  color: gray;
+  text-transform: uppercase;
+  padding-top: 3px;
+}
+
+
+.search i,
+.search span {
+  float: left;
+}
+
+.search span {
+  padding: 6px 0 0 13px;
+}

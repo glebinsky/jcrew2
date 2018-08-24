@@ -1,0 +1,15 @@
+.bag {
+  font-weight: bold;
+  font-size: 13px;
+  color: gray;
+  padding-top: 3px;
+}
+
+.bag i,
+.bag span {
+  float: left;
+}
+
+.bag span {
+  padding: 6px 0 0 13px;
+}
