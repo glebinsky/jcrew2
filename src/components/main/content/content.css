@@ -5,10 +5,14 @@
   width: 606px;
 }
 
+.content-wrapper {
+  overflow: scroll;
+  flex: 1 700px;
+}
+
 .grid-wrapper {
   margin: 0 auto;
   width: 644px;
-  height: 713px;
   overflow: hidden;
 }
 
