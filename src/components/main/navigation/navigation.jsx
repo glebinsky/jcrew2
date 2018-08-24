@@ -14,24 +14,20 @@ export default class Navigation extends Component {
   }
 
   render(){
-    return <NavigationUI navItems={this.state.navItems} />;
+    return (
+      <nav>
+        <ul className="nav-items">
+          {
+            this.state.navItems.map((item, index) => {
+              return (
+                <li key={index}>
+                  <Link to={item.url}>{item.label}</Link>
+                </li>
+              );
+            })
+          }
+        </ul>
+      </nav>
+    );
   }
-}
-
-function NavigationUI(props) {
-  return (
-    <nav>
-      <ul className="nav-items">
-        {
-          props.navItems.map((item, index) => {
-            return (
-              <li key={index}>
-                <Link to={item.url}>{item.label}</Link>
-              </li>
-            );
-          })
-        }
-      </ul>
-    </nav>
-  );
 }

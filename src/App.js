@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from 'main/header/header';
 import Navigation from 'main/navigation/navigation';
@@ -13,7 +13,7 @@ export default function App(props) {
         <Header />
         <Switch>
           <Route exact path="/" component={Navigation} />
-          <Route path="/c" component={Content} />
+          <Route path="/c/:category/newarrivals" component={Content} />
         </Switch>
         <Footer />
       </div>

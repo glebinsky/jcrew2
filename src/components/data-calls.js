@@ -1,13 +1,3 @@
-import data from 'data.json';
-
-export function getLogoPath() {
-  return 'jcrew_logo.svg';
-}
-
-export function getLandingImagePath() {
-  return data.landingImage;
-}
-
 export function getMainNavItems() {
   return fetch('/data/v1/US/navigation', { mode: 'no-cors' })
     .then(response => response.json())
@@ -15,6 +5,9 @@ export function getMainNavItems() {
     .catch(error => console.log(error));
 }
 
-export function getGridItems() {
-  return data.items;
+export function getProductList(category) {
+  return fetch(`/data/v1/US/enhance-category/c/${category}/newarrivals`, { mode: 'no-cors' })
+    .then(response => response.json())
+    .then(data => data.productList)
+    .catch(error => console.log(error));
 }
